@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  background-color: white;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between the rows */
+}
+
+.first-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px; /* Space between the first row and second row */
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+}
+
+/* First column (text content) */
+.column-one {
+  flex: 1;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  align-self: flex-start;
+}
+
+.step-title {
+  color: #000;
+  margin-bottom: 10px;
+  font-family: Söhne Test;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-family: Söhne Test;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: left;
+  
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+  font-family: Söhne Test;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+}
+
+/* Second column (email input and button) */
+.column-two {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red;  */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: blue; */
+  /* width: 80%; */
+}
+
+.email-input {
+  /* padding: 10px;
+  font-size: 16px;
+  /* border: 1px solid #ccc;
+  border-radius: 4px; */
+  /* width: 100%; */
+  width: 723px;
+  height: 40px;
+  top: 400px;
+  left: 819px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px; 
+}
+
+.continue-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  /* border: none;
+  border-radius: 4px; */
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-end;
+  /* width: 40%; */
+  width: 227px;
+  height: 75px;
+  top: 525px;
+  left: 1318px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.continue-btn:hover {
+  background-color: #333;
+}
+
+/* Add some space for the third row */
+.third-row {
+  margin-top: 40px;
+}
